@@ -1,0 +1,153 @@
+body {
+  background-color: rgb(255, 255, 255);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding: 40px;
+}
+
+.logo {
+  position: absolute;
+  top: -25px;
+  left: clamp(10px, 3vw, 15px);
+  width: clamp(90px, 10vw, 130px);
+  max-width: 140px;
+  height: auto;
+}
+
+header {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+  position: absolute;
+  top: 0;
+  padding: 15px 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  margin-right: -70%;
+}
+
+nav a {
+  color: #ece7de;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: clamp(18px, 1.8vw, 15px);
+  text-decoration: none;
+  font-weight: bold;
+  margin-left: clamp(5px, 10vw, 12vw);
+  margin-right: clamp(-9vw, -10vw, -6vw);
+}
+
+nav a:hover {
+  color: rgb(245, 222, 188);
+  border-radius: 5px;
+  text-decoration: overline;
+}
+
+#sobre {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  padding: 35px;
+ gap: 10px;
+
+}
+
+#sobre-nos {
+  background-color: #4d3209;
+  padding: 70px;
+  width: 35%;
+  border-radius: 20px;
+  white-space: inherit;
+}
+
+#conteudo-dispenser{
+
+    background-color: #4d3209;
+  padding: 70px;
+  width: 35%;
+  border-radius: 20px;
+  white-space: inherit;
+}
+
+#conteudo-app{
+    background-color: #4d3209;
+  padding: 70px;
+  width: 35%;
+  border-radius: 20px;
+  white-space: inherit;
+}
+
+#btn {
+  font-size: large;
+  font-weight: bold;
+  position: absolute;
+  left: 63%;
+  transform: translate(-79%, -360%);
+  background-color: #4d3209;
+  color: #e2d3b5;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  margin-left: 10px;
+  padding: 20px;
+  font-family: Arial;
+}
+
+#btn:hover {
+  background-color: #e2d3b5;
+  color: #4d3209;
+  border-color: #e2d3b5;
+}
+
+h2 {
+  color: #e2d3b5;
+}
+
+p {
+  color: #e2d3b5;
+}
+
+
+#dispenserimg {
+
+  display: flex;
+  margin-left: -90px;
+  padding: 0;
+}
+
+#dispenser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+
+}
+
+#app {
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+#sobre-app {
+  width: 50%;
+  margin: 80px;
+  border-radius: 30px;
+  padding: 50px;
+}
