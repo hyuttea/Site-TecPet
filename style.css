@@ -62,7 +62,7 @@ nav a:hover {
   align-items: center;
   display: flex;
   padding: 35px;
- gap: 10px;
+  gap: 10px;
 
 }
 
@@ -74,17 +74,17 @@ nav a:hover {
   white-space: inherit;
 }
 
-#conteudo-dispenser{
+#conteudo-dispenser {
 
-    background-color: #4d3209;
+  background-color: #4d3209;
   padding: 70px;
   width: 35%;
   border-radius: 20px;
   white-space: inherit;
 }
 
-#conteudo-app{
-    background-color: #4d3209;
+#conteudo-app {
+  background-color: #4d3209;
   padding: 70px;
   width: 35%;
   border-radius: 20px;
@@ -96,10 +96,10 @@ nav a:hover {
   font-weight: bold;
   position: absolute;
   left: 63%;
-  transform: translate(-79%, -360%);
-  background-color: #4d3209;
+  transform: translate(-70%, -360%);
+  background-color: #000000;
   color: #e2d3b5;
-  border-radius: 10px;
+  border-radius: 50px;
   border: none;
   cursor: pointer;
   display: flex;
@@ -110,7 +110,7 @@ nav a:hover {
 
 #btn:hover {
   background-color: #e2d3b5;
-  color: #4d3209;
+  color: #000000;
   border-color: #e2d3b5;
 }
 
@@ -150,4 +150,25 @@ p {
   margin: 80px;
   border-radius: 30px;
   padding: 50px;
+}
+
+#gstore{
+  position: absolute;
+  transform: translate(-67%, 250%);
+  opacity: 0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 60px;
+  width: 23%;
+}
+#astore{
+  position: absolute;
+  transform: translate(-68%, 380%);
+  opacity: 0;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 60px;
+  width: 23%;
 }
